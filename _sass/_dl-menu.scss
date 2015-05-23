@@ -63,18 +63,14 @@
 	}
 	li {
 		position: relative;
-		img {
-			margin: 0;
-			padding: 20px 20px 0;
-		}
 		h4 {
 			margin:0;
-			padding: 20px 20px 0;
+			padding: 15px 20px 0;
 			color: rgba($white,0.9);
 		}
 		p {
 			margin: 0;
-			padding: 20px 20px;
+			padding: 15px 20px;
 			@include font-rem(14);
 			color: rgba($white,0.8);
 			font-weight: 300;
@@ -90,7 +86,7 @@
 		a {
 			display: block;
 			position: relative;
-			padding: 20px 20px;
+			padding: 15px 20px;
 			@include font-rem(14);
 			line-height: 20px;
 			font-weight: 400;
